@@ -1,0 +1,36 @@
+// Equality
+// • == Checks value equality.
+// • === Checks value and type equality.
+// •Inequality
+// • != Checks value inequality.
+// • !== Checks value and type inequality.
+// •Relational
+// • > Greater than.
+// • < Less than.
+// • >= Greater than or equal to.
+// • <= Less than or equal to.
+// Order of comparison operators is less than arithmetic operators
+
+
+let a = 4;
+let b = 4;
+
+console.log(4 == 4); //true
+console.log(4 == 4.0); //true
+
+console.log(4 === 4.0); //true bcz both are number in js 
+console.log(4 === 4); //true
+
+console.log(4 != 4.0); //false
+
+
+console.log('Hello' === "Hello"); //true
+console.log('Hello' === "Hello"); //false
+
+console.log(4 < 8);
+console.log(4 <= 8);
+
+
+
+
+
