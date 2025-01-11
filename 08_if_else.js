@@ -30,3 +30,19 @@ if (score >= 90) {
 } else {
     console.log("Grade: F");
 }
+
+
+
+//nested if 
+let age2 = 20;
+let hasID = true;
+
+if (age2 >= 18) {
+    if (hasID) {
+        console.log("You are allowed to enter.");
+    } else {
+        console.log("You need an ID to enter.");
+    }
+} else {
+    console.log("You are not old enough to enter.");
+}
